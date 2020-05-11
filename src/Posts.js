@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Posts({ posts = [] }) {
   return (
     <>
-      <h1>All Posts</h1>
+      <h1>All Posts V3</h1>
       {posts.map((post) => (
         <Link to={`/post/${post.id}`} className={linkStyle} key={post.id}>
           <div key={post.id} className={postContainer}>
